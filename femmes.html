@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9e052d9206.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/femmes.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Site Affiches</title>
+  </head>
+  <body>
+    
+    <i class="fa-solid fa-arrow-left"><a href="index.html"></i> 
+
+    <div class="background">
+        <img src="img/hiroshige-japan.png" style="opacity: 40%;">
+    </div>
+
+    <div class="image-container">
+        <div style="position: relative;">
+            <img src="img/shinsui-ito-suzumi.png" alt="Gauche" class="clickable-image" 
+                onmouseover="showBubble('bubble-left')" 
+                onmouseout="hideBubble('bubble-left')">
+            <div id="bubble-left" class="bubble left-bubble"></div>
+        </div>
+        <div style="position: relative;">
+            <img id="img2" src="img/geishaKiyoka_jacoulet.png" alt="Droite" class="clickable-image" 
+                onmouseover="showBubble('bubble-right')" 
+                onmouseout="hideBubble('bubble-right')">
+            <div id="bubble-right" class="bubble right-bubble"></div>
+        </div>
+    </div>
+
+  </body>
+</html>

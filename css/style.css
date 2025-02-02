@@ -1,0 +1,128 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+/*NAVBAR*/
+
+.navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px; /* Navbar plus épaisse que la normale */
+background-color: #000;
+}
+
+.navbar a {
+color: #59A0E7;
+text-decoration: none;
+font-size: 1.2rem;
+margin: 0 20px;
+padding: 10px 15px;
+}
+
+.navbar a:hover {
+background-color: #555;
+border-radius: 5px;
+}
+
+.hero {
+position: relative;
+height: 100vh;
+background-color: black;
+/*height: 500px;
+background: url('img/hero-img.png') no-repeat center center/cover;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+flex-direction: column;*/
+}
+
+.left {
+  height: 75%;
+  position: absolute;
+  top: 100px; /* Position verticale à ajuster */
+  left: 50px; /* Position horizontale à ajuster */
+}
+.right {
+  height: 50%;
+  position: absolute;
+  top: 335px; /* Position verticale à ajuster */
+  right: 50px; /* Position horizontale à ajuster */
+}
+.center {
+  position: absolute;
+  top: 200px; /* Position verticale à ajuster */
+  left: 50%; /* Centré horizontalement */
+  transform: translateX(-50%); /* Centrer l'image exactement */
+}
+
+
+
+/*
+.hero-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}*/
+
+.hero-content img {
+max-width: 40%;
+height: auto;
+border-radius: 10px;
+}
+
+.hero-images {
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+
+.hero-images img {
+max-width: 20%;
+height: auto;
+border-radius: 10px;
+
+}
+
+/*section 2*/
+.section-beige {
+background-color: beige;
+color: #59A0E7;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+text-align: center;
+font-size: 2rem;
+}
+
+/*section3*/
+.section-noir {
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+text-align: center;
+}
+.section-noir img {
+max-width: 100%;
+height: auto;
+
+/*Footer*/
+.footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 20px;
+}
